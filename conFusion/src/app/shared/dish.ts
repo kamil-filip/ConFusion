@@ -4,6 +4,6 @@ export class Dish {
     category: string;
     label: string;
     price: string;
-    description: string;
+    description: string;    
 };
 
