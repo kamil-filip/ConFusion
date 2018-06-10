@@ -23,16 +23,11 @@
           <button md-button>SHARE</button>
         </md-card-actions>
       </md-card>
-
-
-
-
-
-
   </div>
 
-  <div fxFlex="40">      
-    <md-card fxFlex>
+  <div fxFlex="40">  
+    <div fxFlex *ngIf="dish">    
+      <md-card fxFlex>
         <md-card-header >
             <md-card-title>
               <h2>Comments</h2>
@@ -47,6 +42,6 @@
                   </md-list-item>
                 </md-list>
     </md-card>      
+   </div>
   </div>
-
 </div>
